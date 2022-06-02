@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Sans+JP&display=swap');
+
+/* font-family: 'Indie Flower', cursive; */
+/* font-family: 'Noto Sans JP', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px;
+    background: black;
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.title {    
+    font-family: 'Indie Flower', cursive;
+    font-size: 72px;
+    line-height: 0.8em;
+}
+
+.jp {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+.but {
+    padding-right: 6px;
+}
+
+.dark-mode {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;    
+    line-height: 0em;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}

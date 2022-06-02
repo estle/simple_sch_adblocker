@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phoenix</title>
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="button.css">
+</head>
+
+<body class="popup">
+    <div class="wrap">
+        <h1 class="title">Phoenix</h1>
+        <p class="jp">愛を込めて作られ</p>
+    </div>
+    
+    <div class="container">        
+        <div class="power-switch">
+            <input type="checkbox" name="checkbox" id="checkbox1"/>
+            <div class="button">
+                <svg class="power-off">
+                    <use xlink:href="#line" class="line" />
+                    <use xlink:href="#circle" class="circle" />
+                </svg>
+                <svg class="power-on">
+                    <use xlink:href="#line" class="line" />
+                    <use xlink:href="#circle" class="circle" />
+                </svg>
+            </div>
+        </div>
+
+        <!-- SVG -->
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" id="line">
+                <line x1="75" y1="34" x2="75" y2="58" />
+            </symbol>
+            <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" id="circle">
+                <circle cx="75" cy="80" r="35" />
+            </symbol>
+        </svg>
+    </div>
+    <div class="but">
+        <h2 class="dark-mode">Dark Mode</h2>
+        <h3 id="on-off"></h3>        
+    </div>
+</body>
+<script src="popup.js"></script>
+</html>

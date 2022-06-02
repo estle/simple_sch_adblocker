@@ -1,0 +1,20 @@
+{
+    "name": "Phoenix",
+    "version": "0.1.0",
+    "description": "Phoenix College Project by zou",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>", "tabs"],
+    "background": {
+        "scripts": ["toblock.js", "background.js", "popup.js"],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_title": "Phoenix",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "icons/setting16.png",
+        "64": "icons/setting64.png",
+        "128": "icons/setting128.png"
+    },
+    "manifest_version": 2
+}
